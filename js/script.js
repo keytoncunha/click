@@ -83,13 +83,14 @@ btnIn.addEventListener("click",()=>{
 
     if(qnt_d < 5 || qnt_d > 30){
         alert("[ ERRO ] Leia as instruções e tente novamente.")
+        qntD.focus()
     } else{
         for(let i=0;i<qnt_d;i++){
             array_bolas.push(new Bolas(array_bolas, palco))
         }
         totB.value=numBola
+        qntD.value=0
     }
-    qntD.value=0
 })
 btnRe.addEventListener("click",()=>{
     array_bolas.forEach((cadaBola=>{
