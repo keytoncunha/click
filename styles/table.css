@@ -4,6 +4,7 @@
 }
 
 body{
+    min-height: 400px;
     display: flex;
     flex-flow: row wrap;
     font-size: 1.2em;
@@ -12,6 +13,7 @@ body{
 header{
     width: 30%;
     height: 100vh;
+    min-height: 400px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
