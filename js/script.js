@@ -90,7 +90,6 @@ btnIn.addEventListener("click",()=>{
         totB.value=numBola
     }
     qntD.value=0
-    qntD.focus()
 })
 btnRe.addEventListener("click",()=>{
     array_bolas.forEach((cadaBola=>{
